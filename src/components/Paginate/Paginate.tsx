@@ -1,7 +1,7 @@
 import ReactPaginate from 'react-paginate';
 import { PaginateProps } from '../../types/types';
 
-import './Pagination.scss';
+import './Paginate.scss';
 
 // I declare the functional component Pagination with props and with typing TypeScript
 export const Paginate: React.FC<PaginateProps> = ({
