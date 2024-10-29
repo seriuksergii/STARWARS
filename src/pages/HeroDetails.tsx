@@ -2,7 +2,6 @@ import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 import { Hero } from '../types/types';
 import { HeroModal } from '../components/HeroModal';
-import { Loader } from '../components/Loader';
 
 // I declare the functional component HeroDetails with typing TypeScript (React.FC).
 export const HeroDetails: React.FC = () => {
@@ -38,7 +37,7 @@ export const HeroDetails: React.FC = () => {
   };
 
   // If the data is not already loaded (hero = = = null), the < Loading/> component is rendered.
-  if (!hero) return <Loader />;
+  if (!hero) return <p>Loading...</p>;
 
   // Displays details about the hero using the properties of the hero object.
   return (
