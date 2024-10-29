@@ -1,6 +1,6 @@
 import React from 'react';
 import Modal from 'react-modal';
-// import { HeroGraph } from '../../components/HeroGraph';
+import { HeroGraph } from '../../components/HeroGraph';
 import { HeroModalProps } from '../../types/types';
 import { extractIdFromUrl } from '../../utils/utils';
 import { IoMdCloseCircle } from 'react-icons/io';
