@@ -1,28 +1,30 @@
+@import '../../styles/variables.scss';
+
 .hero-item {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  color: #fff;
-  border: 3px solid #fff;
+  color: $text-color;
+  border: 3px solid $border-color;
   border-radius: 8px;
   padding: 2px;
   height: 100%;
   cursor: pointer;
   text-align: center;
   text-transform: uppercase;
-  transition: transform 0.3s ease;
+  transition: transform $transition-time ease;
 
   .hero-image {
     width: 100%;
     height: 220px;
     object-fit: cover;
     display: block;
-    border-bottom: #fff 3px solid;
+    border-bottom: $border-color 3px solid;
   }
 
   .hero-name {
-    color: #feea1e;
-    font-size: 1.2rem;
+    color: $primary-color;
+    font-size: $font-size-medium;
     font-weight: 900;
     margin-top: auto;
   }

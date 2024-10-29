@@ -1,3 +1,5 @@
+@import '../../styles/variables.scss';
+
 .pagination {
   display: flex;
   justify-content: flex-end;
@@ -11,19 +13,19 @@
     a {
       padding: 10px 15px;
       border: 2px solid #fff;
-      background-color: #000;
-      color: #feea1e;
-      transition: background-color 0.3s;
+      background-color: $background-color;
+      color: $primary-color;
+      transition: background-color $transition-time;
 
       &:hover {
-        background-color: #feea1e;
-        color: #000;
+        background-color: $primary-color;
+        color: $background-color;
       }
     }
 
     &.active a {
-      background-color: #feea1e;
-      color: #000;
+      background-color: $primary-color;
+      color: $background-color;
       font-weight: bold;
     }
   }
