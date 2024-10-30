@@ -1,3 +1,4 @@
+import React from 'react';
 // Import the Grid component from the 'react-loader-spinner'
 import { Grid } from 'react-loader-spinner';
 

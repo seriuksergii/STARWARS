@@ -1,6 +1,7 @@
 import { render, screen } from '@testing-library/react';
 import '@testing-library/jest-dom';
 import { HeroItem } from './HeroItem';
+import React from 'react';
 
 // Create the test group for the HeroItem component
 describe('HeroItem component', () => {
