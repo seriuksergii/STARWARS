@@ -34,9 +34,9 @@ From each movie, there are connections to the starships that the hero traveled o
 Technologies:
 
 React.js
-Graph Visualization: React Flow
-Testing: Jest or Vitest
-TypeScript is recommended.
+1. Graph Visualization: React Flow
+2. Testing: Jest or Vitest
+3. TypeScript is recommended.
 
 ## Technologies Used:
 
