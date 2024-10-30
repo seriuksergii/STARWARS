@@ -6,7 +6,6 @@ import { HeroDetails } from './pages/HeroDetails';
 
 import './App.scss';
 
-
 export const App = () => {
   return (
     <Routes>
