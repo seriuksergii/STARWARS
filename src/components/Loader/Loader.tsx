@@ -1,8 +1,8 @@
+import React from 'react';
 // Import the Grid component from the 'react-loader-spinner'
 import { Grid } from 'react-loader-spinner';
 
 import './Loader.scss';
-import React from 'react';
 
 // We declare the functional component Loader
 export const Loader = () => {
