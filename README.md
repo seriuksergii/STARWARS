@@ -40,16 +40,25 @@ TypeScript is recommended.
 
 ## Technologies Used:
 
-•	Vue3
+React.js:
+For building the user interface and creating components.
+React Router:
+For routing and navigation within the application (BrowserRouter, Routes, Route).
+SCSS:
+For styling components (e.g., index.scss, App.scss, HeroGraph.scss, FilmNode.scss).
+React Flow:
+For visualizing graphs and managing nodes and edges.
+TypeScript:
+For adding type safety to the code and defining component props (e.g., HeroGraphProps, FilmNodeProps).
+Vitest:
+For testing components, including assertions (e.g., @testing-library/react, @testing-library/jest-dom).
+Fetch API:
+For making asynchronous requests to the Star Wars API to retrieve hero and film data.
 
-•	TypeScript
-
-•	CSS
-
-•        API JSONPlaceholder
-
-•        Pinia
-
-•        UUID
-
-•        axios
+Functions and Features
+Hero Details and Graph Visualization:
+Fetches and displays details of a selected hero using a visual graph with nodes for films and starships.
+Pagination or Infinite Scroll:
+The design suggests implementing pagination for the hero list.
+Modal Component:
+Utilizes a modal (HeroModal) to display additional information about the hero.
