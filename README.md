@@ -1,6 +1,6 @@
 # Check out the live demo
 
-# [Demo](https://users-list-ijyz3sbxe-seriuksergiis-projects.vercel.app)
+# [Demo](https://starwars-one-mu.vercel.app)
 
 ## Installation
 
