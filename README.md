@@ -26,11 +26,11 @@
  
 Main Requirements:
 
-List of Heroes: Using the API sw-api.starnavi.io, display a list of all Star Wars heroes. The list should be paginated or have infinite scroll, based on your choice.
+List of Heroes: Using the API sw-api.starnavi.io, display a list of all Star Wars heroes.  The list should be paginated or have infinite scroll, based on your choice.  
 Detailed Information about a Hero: When clicking on a specific hero, display detailed information in the form of a graph, where:
 The main node is the selected hero.
-There are connections from the hero to the movies in which they appeared.
-From each movie, there are connections to the starships that the hero traveled on.
+There are connections from the hero to the movies in which they appeared.  
+From each movie, there are connections to the starships that the hero traveled on.  
 Technologies:
 
 React.js
