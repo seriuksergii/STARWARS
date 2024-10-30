@@ -6,23 +6,37 @@
 
 ## To run this project locally:
 
-1.	Create and open new directory: mkdir users-list/ cd users-list
+1.	Clone the Repository:
 
-2.	Clone the Repository:
+        https://github.com/seriuksergii/STARWARS.git
 
-        git clone https://github.com/seriuksergii/users-list.git
-
-3.	Install dependencies:
+2.	Install dependencies:
 
           npm install
 
-4.	Start the application:
+3.      Start check tests
+
+          npm test
+
+5.	Start the application:
  
           npm run dev
 
  ## TASK CONDITION
  
+Main Requirements:
 
+List of Heroes: Using the API sw-api.starnavi.io, display a list of all Star Wars heroes. The list should be paginated or have infinite scroll, based on your choice.
+Detailed Information about a Hero: When clicking on a specific hero, display detailed information in the form of a graph, where:
+The main node is the selected hero.
+There are connections from the hero to the movies in which they appeared.
+From each movie, there are connections to the starships that the hero traveled on.
+Technologies:
+
+React.js
+Graph Visualization: React Flow
+Testing: Jest or Vitest
+TypeScript is recommended.
 
 ## Technologies Used:
 
