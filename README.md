@@ -40,19 +40,22 @@ React.js
 
 ## Technologies Used:
 
-React.js:
+1. React.js:
 For building the user interface and creating components.
-React Router:
-For routing and navigation within the application (BrowserRouter, Routes, Route).
-SCSS:
+
+2. SCSS:
 For styling components (e.g., index.scss, App.scss, HeroGraph.scss, FilmNode.scss).
-React Flow:
+
+3. React Flow:
 For visualizing graphs and managing nodes and edges.
-TypeScript:
+
+4. TypeScript:
 For adding type safety to the code and defining component props (e.g., HeroGraphProps, FilmNodeProps).
-Vitest:
+
+5. Vitest:
 For testing components, including assertions (e.g., @testing-library/react, @testing-library/jest-dom).
-Fetch API:
+
+6. Fetch API:
 For making asynchronous requests to the Star Wars API to retrieve hero and film data.
 
 Functions and Features
