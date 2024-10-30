@@ -58,10 +58,10 @@ For testing components, including assertions (e.g., @testing-library/react, @tes
 6. Fetch API:
 For making asynchronous requests to the Star Wars API to retrieve hero and film data.
 
-Functions and Features
-Hero Details and Graph Visualization:
-Fetches and displays details of a selected hero using a visual graph with nodes for films and starships.
-Pagination or Infinite Scroll:
-The design suggests implementing pagination for the hero list.
-Modal Component:
+Functions and Features  
+Hero Details and Graph Visualization:  
+Fetches and displays details of a selected hero using a visual graph with nodes for films and starships.  
+Pagination or Infinite Scroll:  
+The design suggests implementing pagination for the hero list.  
+Modal Component:  
 Utilizes a modal (HeroModal) to display additional information about the hero.
