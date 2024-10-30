@@ -1,9 +1,11 @@
+import React from 'react';
 import { Routes, Route } from 'react-router-dom';
 
 import { Homepage } from './pages/Homepage';
 import { HeroDetails } from './pages/HeroDetails';
 
-import './App.css';
+import './App.scss';
+
 
 export const App = () => {
   return (
