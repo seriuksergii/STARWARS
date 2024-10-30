@@ -1,6 +1,7 @@
 import { render } from '@testing-library/react';
 import '@testing-library/jest-dom';
 import { HeroModal } from './HeroModal';
+import React from 'react';
 
 // Test that checks whether the HeroModal component is rendered
 describe('HeroModal component', () => {

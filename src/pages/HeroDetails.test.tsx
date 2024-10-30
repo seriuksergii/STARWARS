@@ -3,6 +3,7 @@ import { MemoryRouter, Route, Routes } from 'react-router-dom';
 import { HeroDetails } from './HeroDetails';
 import { vi, beforeEach, afterEach } from 'vitest';
 import { HeroData } from '../types/types';
+import React from 'react';
 
 const createMockResponse = (data: HeroData): Response => {
   return {

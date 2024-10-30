@@ -1,6 +1,7 @@
 import { render, screen } from '@testing-library/react';
 import '@testing-library/jest-dom';
 import { StarshipNode } from './StarshipNode';
+import React from 'react';
 
 // Test suite for the StarshipNode component
 describe('StarshipNode', () => {

@@ -1,6 +1,7 @@
 import { render, screen } from '@testing-library/react';
 import '@testing-library/jest-dom';
 import { FilmNode } from './FilmNode';
+import React from 'react';
 
 // Test suite for the FilmNode component
 describe('FilmNode', () => {

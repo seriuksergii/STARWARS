@@ -1,6 +1,7 @@
 import { render, screen } from '@testing-library/react';
 import '@testing-library/jest-dom';
 import { Paginate } from './Paginate';
+import React from 'react';
 
 ////Created a test group for the Pagination component.
 describe('Pagination component', () => {
