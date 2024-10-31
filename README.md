@@ -1,4 +1,3 @@
-
 # Check out the live demo
 
 # [Demo](https://starwars-one-mu.vercel.app)
@@ -15,7 +14,7 @@
 
           npm install
 
-3.       Start check tests
+3.        Start check tests
 
           npm test
 
