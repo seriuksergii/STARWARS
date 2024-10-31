@@ -4,7 +4,7 @@ import { Grid } from 'react-loader-spinner';
 
 import './Loader.scss';
 
-// We declare the functional component Loader
+//  We declare the functional component Loader
 export const Loader = () => {
   return (
     <div className="loader">
