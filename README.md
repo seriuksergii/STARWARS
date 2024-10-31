@@ -14,7 +14,7 @@
 
           npm install
 
-3.        Start check tests
+3. Start check tests
 
           npm test
 
