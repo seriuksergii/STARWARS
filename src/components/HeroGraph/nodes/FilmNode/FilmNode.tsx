@@ -1,6 +1,7 @@
 import React from 'react';
 
 import { FilmNodeProps } from '../../../../types/types';
+
 import './FilmNode.scss';
 
 // Declare a FilmNode component that accepts FilmNodeProps
